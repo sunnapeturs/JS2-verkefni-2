@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+.card{
+    width: 50%;
+    display: flex;
+    align-items: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+}
+img{
+    object-fit: cover;
+    height: 400px;
+}
